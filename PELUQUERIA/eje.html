@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peluquería XYZ</title>
+  <link rel="stylesheet" href="eje.css">
+</head>
+<body>
+  <header>
+    <h1>Peluquería XYZ</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#equipo">Equipo</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenidos a Peluquería XYZ</h2>
+    <p>Somos una peluquería especializada en cortes de cabello y tratamientos capilares. Nuestro equipo de estilistas profesionales está listo para ayudarte a lucir tu mejor versión.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <ul>
+      <li>Cortes de cabello para hombres y mujeres</li>
+      <li>Tintes y mechas</li>
+      <li>Tratamientos de keratina</li>
+      <li>Peinados para ocasiones especiales</li>
+      <li>Maquillaje</li>
+    </ul>
+  </section>
+
+  <section id="equipo">
+    <h2>Nuestro Equipo</h2>
+    <ul>
+      <li><img src="stylist1.jpg" alt="Estilista 1"><span>Nombre del Estilista</span></li>
+      <li><img src="stylist2.jpg" alt="Estilista 2"><span>Nombre del Estilista</span></li>
+      <li><img src="stylist3.jpg" alt="Estilista 3"><span>Nombre del Estilista</span></li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¡Contáctanos para agendar una cita o hacer consultas!</p>
+    <form action="enviar.php" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Peluquería XYZ. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
